@@ -79,6 +79,39 @@
     text-align: center;
 }
 
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 25px
+}
+
+.quote-holder{
+    background-color: #CACCCF;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.quote{
+    width: 500px;
+    color:#1F2937;
+}
+
+.quote em{
+    font-size: 24px;
+}
+
+.quote strong{
+    font-size: 20px;
+}
+
+body{
+    margin:0
+}
+
 button{
     border: none;
     width: 125px;
